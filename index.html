@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhap xuat du lieu</title>
+</head>
+
+<body>
+    <h3> <u>Bài 1 </u> </h3>
+
+    <button type="button" onclick="showMessage1();">Click Me!</button>
+    <script>
+        function showMessage1() {
+            alert('Xin chào 1!');
+        }
+
+    </script>
+    <h3> <u>Bài 2 </u> </h3>
+    <div id="messageDiv"></div>
+    <button type="button" onclick="showMessage2();">Click Me!</button>
+    <script>
+        function showMessage2() {
+            document.getElementById('messageDiv').innerHTML = 'Xin chào 2!';
+        }
+    </script>
+    <h3> <u>Bài 3 </u> </h3>
+    <button type="button" onclick="showMessage3();">Click Me!</button>
+    <script>
+        function showMessage3() {
+            document.write('Xin chào 3!');
+        }
+    </script>
+    <h3> <u>Bài 4 </u> </h3>
+    <button type="button" onclick="showMessage4();">Click Me!</button>
+    <script>
+        function showMessage4() {
+            alert('kết quả trong console!')
+            console.log('Xin chào 4!');
+        }
+    </script>
+
+</body>
+
+</html>
